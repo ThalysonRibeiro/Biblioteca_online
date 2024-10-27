@@ -1,4 +1,4 @@
-let os100MelhoreslivrosDeTodosOsTempos = [
+let livros = [
   {
     id: 1,
     titulo: "Em Busca do Tempo Perdido",
@@ -1111,19 +1111,3 @@ let os100MelhoreslivrosDeTodosOsTempos = [
   //   ondeComprar: "",
   // },
 ];
-let outrosLivros = [
-  {
-    id: 0,
-    titulo: "Harry Potter e a Pedra Filosofal: 1",
-    autor: "J. K. Rowling",
-    ano: "2001",
-    classificacao: 5,
-    descricao: "Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê. Ele foi levado, então, para a casa dos tios que nada tinham a ver com o sobrenatural. Pelo contrário. Até os 10 anos, Harry foi uma espécie de gata borralheira: maltratado pelos tios, herdava roupas velhas do primo gorducho, tinha óculos remendados e era tratado como um estorvo. No dia de seu aniversário de 11 anos, entretanto, ele parece deslizar por um buraco sem fundo, como o de Alice no país das maravilhas, que o conduz a um mundo mágico. Descobre sua verdadeira história e seu destino: ser um aprendiz de feiticeiro até o dia em que terá que enfrentar a pior força do mal, o homem que assassinou seus pais. O menino de olhos verde, magricela e desengonçado, tão habituado à rejeição, descobre, também, que é um herói no universo dos magos. Potter fica sabendo que é a única pessoa a ter sobrevivido a um ataque do tal bruxo do mal e essa é a causa da marca em forma de raio que ele carrega na testa. Ele não é um garoto qualquer, ele sequer é um feiticeiro qualquer ele é Harry Potter, símbolo de poder, resistência e um líder natural entre os sobrenaturais. A fábula, recheada de fantasmas, paredes que falam, caldeirões, sapos, unicórnios, dragões e gigantes, não é, entretanto, apenas um passatempo.",
-    capaLivro: "https://m.media-amazon.com/images/I/81ibfYk4qmL._SL1500_.jpg",
-    maisInformacoes: "https://pt.wikipedia.org/wiki/Harry_Potter_e_a_Pedra_Filosofal",
-    ondeComprar: "https://www.amazon.com.br/Harry-Potter-Pedra-Filosofal-Rowling/dp/8532530788/ref=sr_1_1?adgrpid=112159257801&dib=eyJ2IjoiMSJ9.YagZJOtOHvjhLXza55MjKUrOo4U_w9HMLCqFQr29pQ5Ak3f-NJn81RIazPJcDbkm1e4Qs24GZrCcOmbKFUStjkg8wUecPPOkyNKT1eSLoITQOksIzr7imKoTd5PUtDwaXwtsmuIteBkFYhQS_7bWintilU-AVlhUO6jyT9LNHiDsbYnV9TKy3auzjuenSOK1q3MvjcPC7KDr311J_P3I1uW6nfsMPD4suLhBDEZPCWU.cuTB3Fg1Ezw7NjKCjP83F0RNBi1o1IT65qhU23eSag8&dib_tag=se&hvadid=595790227173&hvdev=c&hvlocphy=9198996&hvnetw=g&hvqmt=e&hvrand=3320789248423487564&hvtargid=kwd-337066982336&hydadcr=265_1015010885&keywords=livro+harry+potter&qid=1729996556&s=books&sr=1-1",
-  },
-];
-const livros = [...os100MelhoreslivrosDeTodosOsTempos, ...outrosLivros];
-
-console.log(livros);
